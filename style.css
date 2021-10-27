@@ -16,26 +16,40 @@ body{
 
 .avatar{
 
-    width: 150px;
+    width: 80px;
     border-radius: 50%;
     box-shadow:white;
     margin-top: 10px;
     position: relative;
     
     
+    
 }
 
 .Profile{
 
-    text-align: center;
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 20px;
+    display: flex;
+    
+    
 }
 
-h1{
+.Profile p{
+    margin-top: 20px;
+    margin-left: 10px ;
+}
 
+p{
+   
     font-family: 'Inconsolata', monospace;
-    font-size: 25px;
+    font-size:15px;
     color: #553c0f;
+    font-weight: 600;
 }
+
+
 
 
 .links {
